@@ -2,6 +2,7 @@ import "./App.css";
 
 import Card from "./components/layout/Card";
 
+import ListaAlunos from "./components/repeticao/ListaAlunos";
 import Familia from "./components/basics/Familia";
 import FamiliaMembro from "./components/basics/FamiliaMembro";
 import Fragmento from "./components/basics/Fragmentos";
@@ -17,6 +18,10 @@ export default () => (
     <div className="Cards">
       <Card titulo={tag}>
         <strong>Olá React!</strong>
+      </Card>
+
+      <Card titulo="#06 - Repetição" color="#FF4C65">
+        <ListaAlunos />
       </Card>
 
       <Card titulo="#05 - Componente com Filhos" color="#0047AB">
